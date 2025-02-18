@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore Codici RE.MI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generatore Codici RE.MI</h1>
+        <div class="generator-card">
+            <div class="input-group">
+                <label for="provincia">Seleziona Provincia</label>
+                <select id="provincia">
+                    <option value="">Seleziona una provincia...</option>
+                </select>
+            </div>
+            
+            <div class="result-group" id="resultGroup" style="display: none;">
+                <h2>Codice RE.MI:</h2>
+                <div class="code-display">
+                    <span id="codiceRemi"></span>
+                </div>
+                <div class="details">
+                    <p><strong>Regione:</strong> <span id="regione"></span></p>
+                    <p><strong>Provincia:</strong> <span id="provinciaSelected"></span></p>
+                </div>
+                <div class="comuni-list">
+                    <h3>Comuni principali:</h3>
+                    <ul id="comuniList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
