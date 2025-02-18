@@ -81,4 +81,113 @@ const provinceData = {
     // Piemonte
     "Alessandria": { regione: 'Piemonte', codice: 'REMI_AL', var: '171', comuni: ["Alessandria", "Casale Monferrato", "Novi Ligure", "Tortona", "Valenza"] },
     "Asti": { regione: 'Piemonte', codice: 'REMI_AT', var: '172', comuni: ["Asti", "Canelli", "Nizza Monferrato", "San Damiano d'Asti"] },
-    "Biella": { regione: 'Piemonte', codice:
+"Biella": { regione: 'Piemonte', codice: 'REMI_BI', var: '173', comuni: ["Biella", "Cossato", "Vigliano Biellese"] },
+        "Cuneo": { regione: 'Piemonte', codice: 'REMI_CN', var: '174', comuni: ["Cuneo", "Alba", "Bra", "Fossano", "Mondovì"] },
+        "Novara": { regione: 'Piemonte', codice: 'REMI_NO', var: '175', comuni: ["Novara", "Arona", "Borgomanero"] },
+        "Torino": { regione: 'Piemonte', codice: 'REMI_TO', var: '176', comuni: ["Torino", "Moncalieri", "Collegno", "Rivoli"] },
+        "Verbano-Cusio-Ossola": { regione: 'Piemonte', codice: 'REMI_VB', var: '177', comuni: ["Verbania", "Domodossola", "Omegna"] },
+        "Vercelli": { regione: 'Piemonte', codice: 'REMI_VC', var: '178', comuni: ["Vercelli", "Borgosesia"] },
+
+        // Puglia
+        "Bari": { regione: 'Puglia', codice: 'REMI_BA', var: '181', comuni: ["Bari", "Altamura", "Molfetta", "Bitonto", "Corato"] },
+        "Barletta-Andria-Trani": { regione: 'Puglia', codice: 'REMI_BT', var: '182', comuni: ["Barletta", "Andria", "Trani", "Bisceglie", "Canosa di Puglia"] },
+        "Brindisi": { regione: 'Puglia', codice: 'REMI_BR', var: '183', comuni: ["Brindisi", "Fasano", "Ostuni", "Francavilla Fontana"] },
+        "Foggia": { regione: 'Puglia', codice: 'REMI_FG', var: '184', comuni: ["Foggia", "Cerignola", "Manfredonia", "San Severo"] },
+        "Lecce": { regione: 'Puglia', codice: 'REMI_LE', var: '185', comuni: ["Lecce", "Nardò", "Galatina", "Gallipoli", "Tricase"] },
+        "Taranto": { regione: 'Puglia', codice: 'REMI_TA', var: '186', comuni: ["Taranto", "Martina Franca", "Massafra", "Manduria"] },
+
+        // Sardegna
+        "Cagliari": { regione: 'Sardegna', codice: 'REMI_CA', var: '191', comuni: ["Cagliari", "Quartu Sant'Elena", "Selargius", "Monserrato"] },
+        "Nuoro": { regione: 'Sardegna', codice: 'REMI_NU', var: '192', comuni: ["Nuoro", "Siniscola", "Macomer", "Dorgali"] },
+        "Oristano": { regione: 'Sardegna', codice: 'REMI_OR', var: '193', comuni: ["Oristano", "Terralba", "Bosa", "Cabras"] },
+        "Sassari": { regione: 'Sardegna', codice: 'REMI_SS', var: '194', comuni: ["Sassari", "Alghero", "Porto Torres", "Ozieri"] },
+        "Sud Sardegna": { regione: 'Sardegna', codice: 'REMI_SU', var: '195', comuni: ["Carbonia", "Iglesias", "Guspini", "Villacidro"] },
+
+        // Sicilia
+        "Agrigento": { regione: 'Sicilia', codice: 'REMI_AG', var: '201', comuni: ["Agrigento", "Sciacca", "Canicattì", "Licata", "Favara"] },
+        "Caltanissetta": { regione: 'Sicilia', codice: 'REMI_CL', var: '202', comuni: ["Caltanissetta", "Gela", "Niscemi", "San Cataldo"] },
+        "Catania": { regione: 'Sicilia', codice: 'REMI_CT', var: '203', comuni: ["Catania", "Acireale", "Misterbianco", "Paternò", "Giarre"] },
+        "Enna": { regione: 'Sicilia', codice: 'REMI_EN', var: '204', comuni: ["Enna", "Piazza Armerina", "Nicosia", "Leonforte"] },
+        "Messina": { regione: 'Sicilia', codice: 'REMI_ME', var: '205', comuni: ["Messina", "Barcellona Pozzo di Gotto", "Milazzo", "Taormina"] },
+        "Palermo": { regione: 'Sicilia', codice: 'REMI_PA', var: '206', comuni: ["Palermo", "Bagheria", "Carini", "Monreale", "Termini Imerese"] },
+        "Ragusa": { regione: 'Sicilia', codice: 'REMI_RG', var: '207', comuni: ["Ragusa", "Vittoria", "Modica", "Comiso", "Pozzallo"] },
+        "Siracusa": { regione: 'Sicilia', codice: 'REMI_SR', var: '208', comuni: ["Siracusa", "Augusta", "Avola", "Floridia", "Lentini"] },
+        "Trapani": { regione: 'Sicilia', codice: 'REMI_TP', var: '209', comuni: ["Trapani", "Marsala", "Mazara del Vallo", "Alcamo", "Castelvetrano"] },
+
+        // Toscana
+        "Arezzo": { regione: 'Toscana', codice: 'REMI_AR', var: '211', comuni: ["Arezzo", "Cortona", "Sansepolcro", "Montevarchi", "San Giovanni Valdarno"] },
+        "Firenze": { regione: 'Toscana', codice: 'REMI_FI', var: '212', comuni: ["Firenze", "Empoli", "Scandicci", "Sesto Fiorentino", "Campi Bisenzio"] },
+        "Grosseto": { regione: 'Toscana', codice: 'REMI_GR', var: '213', comuni: ["Grosseto", "Follonica", "Orbetello", "Monte Argentario"] },
+        "Livorno": { regione: 'Toscana', codice: 'REMI_LI', var: '214', comuni: ["Livorno", "Cecina", "Rosignano Marittimo", "Piombino"] },
+        "Lucca": { regione: 'Toscana', codice: 'REMI_LU', var: '215', comuni: ["Lucca", "Viareggio", "Capannori", "Camaiore", "Massarosa"] },
+        "Massa-Carrara": { regione: 'Toscana', codice: 'REMI_MS', var: '216', comuni: ["Massa", "Carrara", "Montignoso", "Aulla"] },
+        "Pisa": { regione: 'Toscana', codice: 'REMI_PI', var: '217', comuni: ["Pisa", "Cascina", "San Giuliano Terme", "Pontedera"] },
+        "Pistoia": { regione: 'Toscana', codice: 'REMI_PT', var: '218', comuni: ["Pistoia", "Montecatini-Terme", "Pescia", "Monsummano Terme"] },
+        "Prato": { regione: 'Toscana', codice: 'REMI_PO', var: '219', comuni: ["Prato", "Montemurlo", "Carmignano", "Poggio a Caiano"] },
+        "Siena": { regione: 'Toscana', codice: 'REMI_SI', var: '220', comuni: ["Siena", "Poggibonsi", "Colle di Val d'Elsa", "Monteriggioni"] },
+
+        // Trentino-Alto Adige
+        "Bolzano": { regione: 'Trentino-Alto Adige', codice: 'REMI_BZ', var: '231', comuni: ["Bolzano", "Merano", "Bressanone", "Brunico", "Laives"] },
+        "Trento": { regione: 'Trentino-Alto Adige', codice: 'REMI_TN', var: '232', comuni: ["Trento", "Rovereto", "Pergine Valsugana", "Arco", "Riva del Garda"] },
+
+        // Umbria
+        "Perugia": { regione: 'Umbria', codice: 'REMI_PG', var: '241', comuni: ["Perugia", "Foligno", "Città di Castello", "Spoleto", "Assisi"] },
+        "Terni": { regione: 'Umbria', codice: 'REMI_TR', var: '242', comuni: ["Terni", "Orvieto", "Narni", "Amelia"] },
+
+        // Valle d'Aosta
+        "Aosta": { regione: "Valle d'Aosta", codice: 'REMI_AO', var: '251', comuni: ["Aosta", "Saint-Vincent", "Sarre", "Châtillon", "Saint-Christophe"] },
+
+        // Veneto
+        "Belluno": { regione: 'Veneto', codice: 'REMI_BL', var: '261', comuni: ["Belluno", "Feltre", "Cortina d'Ampezzo", "Pieve di Cadore"] },
+        "Padova": { regione: 'Veneto', codice: 'REMI_PD', var: '262', comuni: ["Padova", "Abano Terme", "Este", "Cittadella", "Monselice"] },
+        "Rovigo": { regione: 'Veneto', codice: 'REMI_RO', var: '263', comuni: ["Rovigo", "Adria", "Lendinara", "Porto Viro"] },
+        "Treviso": { regione: 'Veneto', codice: 'REMI_TV', var: '264', comuni: ["Treviso", "Conegliano", "Castelfranco Veneto", "Montebelluna"] },
+        "Venezia": { regione: 'Veneto', codice: 'REMI_VE', var: '265', comuni: ["Venezia", "Chioggia", "San Donà di Piave", "Mestre", "Jesolo"] },
+        "Verona": { regione: 'Veneto', codice: 'REMI_VR', var: '266', comuni: ["Verona", "Villafranca di Verona", "San Bonifacio", "Legnago"] },
+        "Vicenza": { regione: 'Veneto', codice: 'REMI_VI', var: '267', comuni: ["Vicenza", "Bassano del Grappa", "Schio", "Thiene"] }
+    };
+
+    const provinciaSelect = document.getElementById('provincia');
+    const resultGroup = document.getElementById('resultGroup');
+    const codiceRemiSpan = document.getElementById('codiceRemi');
+    const regioneSpan = document.getElementById('regione');
+    const provinciaSpan = document.getElementById('provinciaSelected');
+    const comuniList = document.getElementById('comuniList');
+
+    // Popola il select con le province
+    Object.keys(provinceData).sort().forEach(provincia => {
+        const option = document.createElement('option');
+        option.value = provincia;
+        option.textContent = `${provincia} (${provinceData[provincia].regione})`;
+        provinciaSelect.appendChild(option);
+    });
+
+    // Gestisci il cambio di provincia
+    provinciaSelect.addEventListener('change', function() {
+        const selectedProvincia = this.value;
+        
+        if (selectedProvincia) {
+            const data = provinceData[selectedProvincia];
+            
+            // Mostra il codice RE.MI
+            codiceRemiSpan.textContent = `34722${data.var}`;
+            
+            // Aggiorna i dettagli
+            regioneSpan.textContent = data.regione;
+            provinciaSpan.textContent = selectedProvincia;
+            
+            // Aggiorna la lista dei comuni
+            comuniList.innerHTML = '';
+            data.comuni.forEach(comune => {
+                const li = document.createElement('li');
+                li.textContent = comune;
+                comuniList.appendChild(li);
+            });
+            
+            // Mostra i risultati
+            resultGroup.style.display = 'block';
+        } else {
+            resultGroup.style.display = 'none';
+        }
+    });
+});
