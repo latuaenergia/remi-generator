@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.generator-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.result-group {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.code-display {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-family: monospace;
+    font-size: 24px;
+    text-align: center;
+    color: #2c3e50;
+    border: 1px solid #ddd;
+}
+
+.details {
+    margin: 15px 0;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.comuni-list {
+    margin-top: 20px;
+}
+
+.comuni-list h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.comuni-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.comuni-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .generator-card {
+        padding: 15px;
+    }
+    
+    .code-display {
+        font-size: 20px;
+    }
+}
