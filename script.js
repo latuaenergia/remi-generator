@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 const provinceData = {
     // Abruzzo
     "L'Aquila": { regione: 'Abruzzo', codice: 'REMI_AQ', var: '81', comuni: ["L'Aquila", "Avezzano", "Sulmona", "Castel di Sangro"] },
